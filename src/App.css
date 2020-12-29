@@ -25,7 +25,7 @@ body {
 .copied-text {
   animation: slideOutDown;
   background: #ffede8;
-  font-family: "Circular", sans-serif;
+  font-family: Circular-Book, sans-serif;
   font-size: 16px;
   margin: 10px 0;
   padding: 5px 10px;
@@ -42,7 +42,7 @@ body {
 }
 
 .find-me-on-text {
-  font-family: "Recoleta Black", sans-serif;
+  font-family: "Recoleta-Black", sans-serif;
   font-size: 35px;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .get-in-touch-text {
-  font-family: "Recoleta Black", sans-serif;
+  font-family: "Recoleta-Black", sans-serif;
   font-size: 35px;
   min-width: 350px;
   padding-top: 60px;
@@ -63,7 +63,7 @@ body {
 
 .get-in-touch-details-text {
   display: inline;
-  font-family: "Circular", sans-serif;
+  font-family: Circular-Book, sans-serif;
   font-size: 16px;
   font-weight: normal;
 }
@@ -79,7 +79,7 @@ body {
 .landing-text {
   animation-name: fadeIn;
   animation-duration: 1.5s;
-  font-family: "Recoleta Black", sans-serif;
+  font-family: "Recoleta-Black", sans-serif;
   font-size: 30px;
   min-width: 180px;
   width: 25%;
@@ -120,7 +120,7 @@ body {
   background-size: 120% 0;
   color: black;
   cursor: pointer;
-  font-family: "Circular", sans-serif;
+  font-family: Circular-Book, sans-serif;
   font-size: 18px;
   line-height: 25px;
   margin: 0 0 0 15px;
@@ -142,7 +142,7 @@ body {
 
 .list-text {
   color: #f7f5f5;
-  font-family: "Recoleta Black", sans-serif;
+  font-family: "Recoleta-Black", sans-serif;
   font-size: 100px;
   line-height: 105px;
 }
@@ -160,7 +160,7 @@ body {
   background-size: 120% 0;
   color: black;
   cursor: pointer;
-  font-family: "Circular", sans-serif;
+  font-family: Circular-Book, sans-serif;
   font-size: 16px;
   margin: 25px 4%;
   padding: 5px 10px;
@@ -199,7 +199,7 @@ body {
 
 .nav-link-home {
   color: #ee6c4d;
-  font-family: "Recoleta Black", sans-serif;
+  font-family: "Recoleta-Black", sans-serif;
   font-size: 30px;
   margin: 0 5% 0 15%;
   text-decoration: none;
@@ -216,7 +216,7 @@ body {
 
 .story-text {
   color: #ee6c4d;
-  font-family: "Circular Medium", sans-serif;
+  font-family: Circular-Medium, sans-serif;
   font-size: 30px;
   min-width: 180px;
   width: 40%;
@@ -225,7 +225,7 @@ body {
 
 .story-text-right {
   color: #ee6c4d;
-  font-family: "Circular Medium", sans-serif;
+  font-family: Circular-Medium, sans-serif;
   font-size: 30px;
   min-width: 180px;
   width: 70%;

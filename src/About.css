@@ -34,7 +34,7 @@
 }
 
 .about-paragraph {
-  font-family: "Circular", sans-serif;
+  font-family: Circular, sans-serif;
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 18px;
@@ -42,14 +42,14 @@
 
 .about-header {
   color: #ee6c4d;
-  font-family: "Recoleta Black";
+  font-family: "Recoleta-Black";
   font-size: 35px;
   margin-bottom: 40px;
   margin-top: 20px;
 }
 
 .about-subheader {
-  font-family: "Recoleta Black";
+  font-family: "Recoleta-Black";
   font-size: 25px;
   margin: 65px 0 20px 0;
 }

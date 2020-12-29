@@ -1,5 +1,5 @@
 .header-text {
-  font-family: "Recoleta Black", sans-serif;
+  font-family: "Recoleta-Black", sans-serif;
   font-size: 22px;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .paragraph-text {
-  font-family: "Circular", sans-serif;
+  font-family: Circular-Book, sans-serif;
   font-size: 16px;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .proj-subheader {
-  font-family: "Recoleta Black";
+  font-family: "Recoleta-Black";
   font-size: 25px;
   margin: 40px 0 20px 0;
 }
@@ -59,7 +59,7 @@
 
 .subheader-text {
   color: rgb(159, 159, 159);
-  font-family: "Circular", sans-serif;
+  font-family: Circular-Book, sans-serif;
   font-size: 16px;
 }
 
