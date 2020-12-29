@@ -27,8 +27,8 @@ function Work() {
           </div>
       </div>
       <div className="work-card-container">
-          <WorkCard image={background} link="/work/airbnb" title="Airbnb Trips" description="Airbnb x Adobe Creative Jam"/>
-          <WorkCard image={background} link="/work/nickelodeon" title="Nickelodeon Multiverse" description="Nickelodeon x Adobe Creative Jam"/>
+          <WorkCard image={background} link="/airbnb" title="Airbnb Trips" description="Airbnb x Adobe Creative Jam"/>
+          <WorkCard image={background} link="/nickelodeon" title="Nickelodeon Multiverse" description="Nickelodeon x Adobe Creative Jam"/>
           <WorkCard image={background} link="https://github.com/codebase-berkeley/teacher-portal" title="Ygnacio Valley Teacher Portal" description="Web App"/>
           <WorkCard image={background} link="https://github.com/leebianca/vector-visual" title="Vector Addition Visualization" description="Web App"/>
       </div>

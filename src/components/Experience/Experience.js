@@ -16,7 +16,7 @@ function Experience(props) {
   return (
     <div className="experience-wrapper">
     <div className="what-im-doing-text">What I've been up to</div>
-    <WorkCard image={fb} link="/work/fb" title="Facebook" description="Software Engineer Intern"/>
+    <WorkCard image={fb} link="/fb" title="Facebook" description="Software Engineer Intern"/>
     <WorkCard image={wdd} link="https://wdd.io" title="CS 198 Web Design DeCal" description="Head Instructor"/>
     <WorkCard image={cb} link="https://codebase.berkeley.edu" title="Codebase" description="Project Manager, Developer"/>
     </div>

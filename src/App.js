@@ -24,13 +24,13 @@ function App() {
           <Route exact path="/">
             <Home/>
           </Route>
-          <Route exact path="/work/fb">
+          <Route exact path="/fb">
             <FbInternship/>
           </Route>
-          <Route exact path="/work/airbnb">
+          <Route exact path="/airbnb">
             <Airbnb/>
           </Route>
-          <Route exact path="/work/nickelodeon">
+          <Route exact path="/nickelodeon">
             <Nickelodeon/>
           </Route>
           <Route exact path="/work">
