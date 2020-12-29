@@ -1,0 +1,24 @@
+.experience-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -300px;
+}
+
+@media (max-width: 900px) {
+  .experience-wrapper {
+    margin-top: -400px;
+  }
+}
+
+.what-im-doing-text {
+  /* align-items: flex-end; */
+  display: flex;
+  font-family: "Cooper Black", sans-serif;
+  font-size: 40px;
+  height: 200px;
+  margin: 0 120px;
+  padding-top: 120px;
+  width: 280px;
+  z-index: 3;
+}

@@ -1,24 +1,47 @@
-import logo from './logo.svg';
+import About from './About.js';
+import FbInternship from './FbInternship.js';
+import Airbnb from './Airbnb.js';
+import Nickelodeon from './Nickelodeon.js';
+import Home from './Home.js';
+import Work from './Work.js';
+import React, { useEffect, useState } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Rellax from 'rellax';
+import CallMadeIcon from '@material-ui/icons/CallMade';
 import './App.css';
+var classNames = require('classnames');
+
 
 function App() {
+  // const backgroundFontSize = useScrollChange();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+    <Switch>
+          <Route exact path="/about">
+            <About/>
+          </Route>
+          <Route exact path="/">
+            <Home/>
+          </Route>
+          <Route exact path="/work/fb">
+            <FbInternship/>
+          </Route>
+          <Route exact path="/work/airbnb">
+            <Airbnb/>
+          </Route>
+          <Route exact path="/work/nickelodeon">
+            <Nickelodeon/>
+          </Route>
+          <Route exact path="/work">
+            <Work/>
+          </Route>
+        </Switch>
+    </Router>
   );
 }
 

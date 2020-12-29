@@ -1,0 +1,57 @@
+.card-photo {
+  transition: all 0.4s;
+  width: 100%;
+}
+
+.card-photo:hover {
+  border-radius: 15px;
+  cursor: pointer;
+  width: 95%;
+}
+
+.card-photo-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  max-width: 410px;
+  min-width: 80%;
+}
+
+.work-card-description {
+  color: rgb(120, 120, 120);
+  font-family: "Circular", sans-serif;
+  font-size: 16px;
+}
+
+.work-card-link {
+  text-decoration: none;
+}
+
+.work-card-text {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.work-card-title {
+  background-image: linear-gradient(to bottom, white 25%, #ffede8 75%);
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  background-size: 120% 0;
+  color: black;
+  font-family: "Recoleta Black", sans-serif;
+  font-size: 22px;
+  transition: background-size 0.2s ease-in 0.1s;
+}
+
+.work-card-title:hover {
+  cursor: pointer;
+  transition: background-size 0.2 ease-in 0.1s;
+  width: max-content;
+  background-size: 100%;
+  background-position: 0% 100%;
+}
+
+.work-card-wrapper {
+  margin: 25px 4%;
+}
