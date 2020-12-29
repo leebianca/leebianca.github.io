@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react';
 import {
     Link
   } from "react-router-dom";
-import CallMadeIcon from '@material-ui/icons/CallMade';
-import Typist from 'react-typist';
+import {CallMade} from '@material-ui/icons';
 var classNames = require('classnames');
 
 function FbInternship() {
@@ -30,7 +29,7 @@ function FbInternship() {
             </div>
             <div className={classNames({"get-in-touch-text": true, "pad-hidden": !hidden})}>
                 Get in touch
-                <CallMadeIcon className="arrow-icon" fontSize="large" onClick={handleClick}/>
+                <CallMade className="arrow-icon" fontSize="large" onClick={handleClick}/>
             </div>
             <div className="get-in-touch-details-wrapper">
             <div className="get-in-touch-details-text">
