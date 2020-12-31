@@ -4,8 +4,9 @@ import {
   } from "react-router-dom";
 import './Projects.css';
 import './About.css';
+import ScrollToTop from './ScrollToTop.js';
 import Footer from './Footer.js';
-import fb from './assets/fb-banner.png';
+import airbnb from './assets/airbnb-banner.png';
 import ideation1 from './assets/ideation-1.png';
 import ideation2 from './assets/ideation-2.png';
 import mapstories1 from './assets/map-stories-1.png';
@@ -20,10 +21,14 @@ import tripreflection1 from './assets/trip-reflection-1.png';
 import tripreflection2 from './assets/trip-reflection-2.png';
 import tripreflection3 from './assets/trip-reflection-3.png';
 
-
-
-
 function Airbnb() {
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+
   return (
     <div className="FbInternship">
         <div className="nav-bar-wrapper">
@@ -34,8 +39,9 @@ function Airbnb() {
         </div>
       </div>
         <div className="work-banner-wrapper wrapper">
-        <img className="work-banner" src={fb}/>
+        <img className="work-banner" src={airbnb}/>
         </div>
+        <ScrollToTop/>
         <div className="header-wrapper wrapper">
             <div className="loc-and-pos">
             <div className="header-text">
@@ -49,7 +55,7 @@ function Airbnb() {
         </div>
         <div className="writeup-wrapper wrapper">
             <div className="subheader-text left-column">Overview</div>
-            <div className="paragraph-text right-column">Airbnb Trips is a designathon project that was made in collaboration with <a href="https://juliaxliu.me/" className="highlight-text">Julia Liu</a> and <a href="https://jagopang.com/" className="highlight-text">Jago Pang</a>.  We concepted a mobile app which allows people to seamlessly document their trips, share trips with others, and gather inspiration for future trips. </div>
+            <div className="paragraph-text right-column">Airbnb Trips is a project that was made in collaboration with <a href="https://juliaxliu.me/" target="_blank" className="highlight-text">Julia Liu</a> and <a href="https://jagopang.com/" target="_blank" className="highlight-text">Jago Pang</a> for the Airbnb x Adobe Creative Jam.  We concepted a mobile app which allows people to seamlessly document their trips, share trips with others, and gather inspiration for future trips. </div>
         </div>
         <div className="writeup-wrapper wrapper">
             <div className="subheader-text left-column">Background</div>

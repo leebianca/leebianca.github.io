@@ -27,16 +27,16 @@ function About() {
           <div className="about-paragraph">~</div>
           <div className="about-paragraph">I'm interested in design systems, tools, and processes, building digital communities, and how those things affect our social, economic, and political landscapes. </div>
           <div className="about-subheader">Some of my favorite things</div>
-          <div className="about-paragraph">• <a href="https://airtable.com/shrbvZFU7357K39mD" className="highlight-text">Books</a></div>
+          <div className="about-paragraph">• <a href="https://airtable.com/shrbvZFU7357K39mD" target="_blank" className="highlight-text">Books</a></div>
           <div className="about-paragraph">• The Daily, hosted by Michael Barbaro  </div>
           <div className="about-paragraph">• Game of Thrones</div>
           <div className="about-paragraph">• Making coffee in the morning</div>
           <div className="about-paragraph">• My Leuchtturm1917 journal</div>
           <div className="about-subheader">Guiding principles</div>
-          <div className="about-paragraph">• <div className="bold-text"> Prioritize breadth of experience.</div> Learn as much as you can, and try new things. Don't worry about specializing – there's plenty of time for that later on.   </div>
-          <div className="about-paragraph">• <div className="bold-text"> Time is valuable – know what your time is worth.</div> Don't settle for opportunities just to stay busy, make sure to take time for yourself, and always make time for people who matter to you.</div>
+          <div className="about-paragraph">• <div className="bold-text"> Prioritize breadth of experience.</div> To innovate, it's so important to be able to synthesize new ideas across different domains. Don't worry about specializing – it'll come with time.   </div>
+          <div className="about-paragraph">• <div className="bold-text"> Time is valuable.</div> Don't settle for opportunities just to stay busy, make sure to take time for yourself, and always make time for people who matter to you.</div>
           <div className="about-paragraph">• <div className="bold-text"> Remember why you're doing things.</div> Avoid doing the bare minimum, push to improve whatever you're working on, and stay creative.  </div>
-          <div className="about-paragraph">• <div className="bold-text"> Do the right thing.</div> Act with grace and compassion. Take the road less traveled if you need to.   </div>
+          <div className="about-paragraph">• <div className="bold-text"> Do the right thing.</div></div>
         </div>
       </div>
       <div className="footer-container">

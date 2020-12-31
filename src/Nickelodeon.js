@@ -1,11 +1,12 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {
     Link
   } from "react-router-dom";
 import './Projects.css';
 import './About.css';
+import ScrollToTop from './ScrollToTop.js';
 import Footer from './Footer.js';
-import fb from './assets/fb-banner.png';
+import nick from './assets/nickelodeon-banner.png';
 import nickideation1 from './assets/nick-ideation-1.png';
 import nickideation2 from './assets/nick-ideation-2.png';
 import nickideation3 from './assets/nick-ideation-3.png';
@@ -22,6 +23,13 @@ import ar1 from './assets/ar-1.png';
 import ar2 from './assets/ar-2.png';
 
 function Nickelodeon() {
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+
   return (
     <div className="FbInternship">
         <div className="nav-bar-wrapper">
@@ -32,8 +40,9 @@ function Nickelodeon() {
         </div>
       </div>
         <div className="work-banner-wrapper wrapper">
-        <img className="work-banner" src={fb}/>
+        <img className="work-banner" src={nick}/>
         </div>
+        <ScrollToTop/>
         <div className="header-wrapper wrapper">
             <div className="loc-and-pos">
             <div className="header-text">
@@ -47,7 +56,7 @@ function Nickelodeon() {
         </div>
         <div className="writeup-wrapper wrapper">
             <div className="subheader-text left-column">Overview</div>
-            <div className="paragraph-text right-column">Nickelodeon Multiverse is a designathon project created in collaboration with <a href="https://juliaxliu.me/" className="highlight-text">Julia Liu</a> and <a href="https://jagopang.com/" className="highlight-text">Jago Pang</a>. Our app concept received recognition as a Runner Up (top 20 teams) out of 145 teams.
+            <div className="paragraph-text right-column">Nickelodeon Multiverse is a project created in collaboration with <a href="https://juliaxliu.me/" target="_blank" className="highlight-text">Julia Liu</a> and <a href="https://jagopang.com/" target="_blank" className="highlight-text">Jago Pang</a> for the Nickelodeon x Adobe Creative Jam. Our app concept received recognition as a Runner Up (top 20 teams) out of 145 teams.
                 <div className="break"/>
 The Multiverse is an app that encourages social interaction and teamwork via the multiple universes of the Nickelodeon World. Through AR, players join their favorite universe and work through daily challenges, from creative prompts to short exercises to educational videos. The completion of each category rewards points to the player, which can be used to unlock more features, customize their character, and goes towards the point total of their universe. At the end of each week, the universe with the most points will be awarded a prize. Players can also add friends and challenge their friends to complete their daily challenges.
 

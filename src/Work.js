@@ -1,13 +1,15 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import WorkCard from './components/WorkCard.js';
 import {
   BrowserRouter as Router,
-  Route,
   Link
 } from "react-router-dom";
 import './Work.css';
 import Footer from './Footer.js';
-import background from './assets/fb.png';
+import airbnb from './assets/airbnb.png';
+import nick from './assets/nick.png';
+import studentportal from './assets/student-portal.png';
+import vector from './assets/vector.png';
 
 
 function Work() {
@@ -27,10 +29,10 @@ function Work() {
           </div>
       </div>
       <div className="work-card-container">
-          <WorkCard image={background} link="/airbnb" title="Airbnb Trips" description="Airbnb x Adobe Creative Jam"/>
-          <WorkCard image={background} link="/nickelodeon" title="Nickelodeon Multiverse" description="Nickelodeon x Adobe Creative Jam"/>
-          <WorkCard image={background} link="https://github.com/codebase-berkeley/teacher-portal" title="Ygnacio Valley Teacher Portal" description="Web App"/>
-          <WorkCard image={background} link="https://github.com/leebianca/vector-visual" title="Vector Addition Visualization" description="Web App"/>
+          <WorkCard image={airbnb} link="/airbnb" title="Airbnb Trips" description="Mobile / UX"/>
+          <WorkCard image={nick} link="/nickelodeon" title="Nickelodeon Multiverse" description="Mobile / UX"/>
+          <WorkCard image={studentportal} extlink="https://github.com/codebase-berkeley/teacher-portal" title="Ygnacio Valley Teacher Portal" description="Web"/>
+          <WorkCard image={vector} extlink="https://github.com/leebianca/vector-visual" title="Vector Addition Visualization" description="Web"/>
       </div>
       <Footer/>
     </div>

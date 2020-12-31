@@ -7,6 +7,13 @@ import Footer from './Footer.js';
 import fb from './assets/fb-banner.png';
 
 function FbInternship() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+  
   return (
     <div className="FbInternship">
         <div className="nav-bar-wrapper">

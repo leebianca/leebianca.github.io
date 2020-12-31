@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
   Link
 } from "react-router-dom";
 import Rellax from 'rellax';
@@ -89,12 +87,12 @@ function Home() {
         <Link to="/work" className="nav-bar-link">Work</Link>
         </div>
       </div>
-      <div className="landing-text-wrapper">
+      {/* <div className="landing-text-wrapper"> */}
         {/* <div className="landing-text-padding"/> */}
         <div className="landing-text landing-text-slow">
           Hey there! I'm <p className="landing-text-red">Bianca</p>.
         </div>
-      </div>
+      {/* </div> */}
       <div className="story-text-wrapper story-text-slow" data-rellax-zindex="5">
           <div className="story-text">
             My passions and learnings are best traced through the things I create

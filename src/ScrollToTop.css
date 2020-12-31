@@ -1,0 +1,23 @@
+.scroll-top-wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.scroll-up {
+  cursor: pointer;
+  font-family: Circular-Book;
+  position: fixed;
+  margin-right: 5%;
+  margin-bottom: 50px;
+  right: 0;
+  bottom: 0;
+}
+
+.scroll-up:hover {
+  color: #ee6c4d;
+}
+
+.upward {
+  margin-bottom: -5px;
+  margin-right: 10px;
+}
