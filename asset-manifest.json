@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.3066408f.chunk.css",
+    "main.css": "/static/css/main.7e849d70.chunk.css",
     "main.js": "/static/js/main.41cc4967.chunk.js",
     "main.js.map": "/static/js/main.41cc4967.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5833a6a7.js",
@@ -10,7 +10,7 @@
     "static/js/3.8850036d.chunk.js": "/static/js/3.8850036d.chunk.js",
     "static/js/3.8850036d.chunk.js.map": "/static/js/3.8850036d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.3066408f.chunk.css.map": "/static/css/main.3066408f.chunk.css.map",
+    "static/css/main.7e849d70.chunk.css.map": "/static/css/main.7e849d70.chunk.css.map",
     "static/js/2.ce52c04e.chunk.js.LICENSE.txt": "/static/js/2.ce52c04e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Recoleta-Black.4cddb7fc.ttf",
     "static/media/about.aebaf61b.jpg": "/static/media/about.aebaf61b.jpg",
@@ -56,7 +56,7 @@
   "entrypoints": [
     "static/js/runtime-main.5833a6a7.js",
     "static/js/2.ce52c04e.chunk.js",
-    "static/css/main.3066408f.chunk.css",
+    "static/css/main.7e849d70.chunk.css",
     "static/js/main.41cc4967.chunk.js"
   ]
 }
