@@ -26,7 +26,7 @@ function WorkCard(props) {
   else {
     return (
       <div className="work-card-wrapper">
-        <a href={props.extlink} className="work-card-link">
+        <a href={props.extlink} className="work-card-link" target="_blank">
       <div className="card-photo-wrapper">
       <img className="card-photo" src={props.image}/>
       </div>
